@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Karla';
+    color: #293264;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F7FB;
+    max-width: 900px;
+    height: 80vh;
+    margin: 10vh auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px solid #293264;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.7em
+}
+
+h1 {
+    margin: .2em
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+.question-container {
+    border-bottom: 2px solid #DBDEF0;
+    width: 100%;
+    padding: 1rem 0;
+    margin: 0 0 .5rem
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: .5rem
+}
+
+li {
+    border: 1px solid #4D5B9E;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px
+}
+
+.btn {
+    background: #4D5B9E;
+    border-radius: 15px;
+    color: #F5F7FB;
+    font-family: 'Karla';
+    padding: .75rem 1.75rem;
+    margin: 1em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
