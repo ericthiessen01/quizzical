@@ -71,6 +71,10 @@ li {
     margin: 1em;
 }
 
+li:hover, .btn:hover {
+    cursor: pointer;
+}
+
 .footer {
     display: flex;
     align-items: center;
