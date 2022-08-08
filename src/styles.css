@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     justify-content: center;
     background: #F5F7FB;
     max-width: 900px;
-    height: 80vh;
+    min-height: 80vh;
     margin: 10vh auto;
     padding: 25px;
     border-radius: 15px;
@@ -51,6 +52,7 @@ h4 {
 ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     margin-top: .5rem
 }
 
